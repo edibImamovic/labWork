@@ -1,0 +1,10 @@
+public class saDecimalom {
+	public static void main(String[] args) {
+		int broj1 = 9;
+		int broj2 = 8;
+		double rezultat = (double) (broj1 - broj2);
+		System.out.println(rezultat);     
+		
+		
+	}
+}
