@@ -1,0 +1,14 @@
+	public class kamata {
+		public static void main(String[] args) {
+			double glavnica = 10;
+			double kamata = (double) (Math.random()*16);
+			double rezultat = glavnica + kamata;
+			System.out.print("Ukupna vrijednost je: ");
+			System.out.println(rezultat);
+			System.out.print("Ukupna kamata je: ");
+			System.out.println(kamata);
+			System.out.print("Ukupna glavnica je: ");
+			System.out.println(glavnica);
+			
+		}
+	}
