@@ -1,0 +1,9 @@
+public class povrsinaKruga {
+	public static void main(String[] args) {
+		double radijus = 5;
+		double pi = 3.14;
+		double rezultat = (radijus * radijus) * pi; // jer je forumala za pi : P=r na kvadrat  puta pi
+		System.out.println(rezultat);
+	}
+		
+	}
