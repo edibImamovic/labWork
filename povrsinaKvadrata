@@ -1,0 +1,16 @@
+public class povrsinaKvadrata {
+	public static void main(String[] args) {
+		double stranicaKvadrata = 10;
+		double povrsinaKvadrata = stranicaKvadrata * stranicaKvadrata; // p = a na kvadrat
+		double poluprecnikKruga = 10;
+		double povrsinaKruga = (poluprecnikKruga * poluprecnikKruga) * 3.14; // r na kvadrat puta pi
+		double krugUkvadratu = povrsinaKvadrata / povrsinaKruga;
+		double obimValjka = (20*3.14*(10+(0.5+Math.random()*36.7)));
+		System.out.print("Obim valjka je: ");
+		System.out.println(obimValjka);
+		System.out.print("Povrsina kvadrata je: ");
+		System.out.println(povrsinaKvadrata);
+		System.out.print("Povrsina kruga je: ");
+		System.out.println(povrsinaKruga);
+	}
+}
