@@ -5,14 +5,18 @@ public class sfera {
 		//zadatak je bio da kao precnik uzmemo nasumicni broj izmedju 0-50
 		
 		double pi = 3.14;
-		double rezultat = (4 / 3) * pi * (radijus* radijus * radijus); 
-		
+		double rezultatZapremine = (4 / 3) * pi * (radijus* radijus * radijus); 
+		double rezultatPovrsina = 4  * pi * (radijus* radijus);
+				
 		// formula za zapreminu sfere je 4/3*pi* r na 3
+		// formula za povrinu sfere je 4 * pi * radijus na kvadrat
 		
-		System.out.print("Volumen sfere je: ");
-		System.out.println(rezultat);
+		System.out.print("Zapremina sfere je: ");
+		System.out.println(rezultatZapremine);
 		System.out.print("Radijus sfere je: ");
 		System.out.println(radijus);
+		System.out.print("Povrsina sfere je: ");
+		System.out.println(rezultatPovrsina);
 	}
 		
 	}
