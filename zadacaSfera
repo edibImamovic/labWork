@@ -1,0 +1,19 @@
+public class sfera {
+	public static void main(String[] args) {
+		double radijus = (Math.random()*51);
+		
+		//zadatak je bio da kao precnik uzmemo nasumicni broj izmedju 0-50
+		
+		double pi = 3.14;
+		double rezultat = (4 / 3) * pi * (radijus* radijus * radijus); 
+		
+		// formula za zapreminu sfere je 4/3*pi* r na 3
+		
+		System.out.print("Volumen sfere je: ");
+		System.out.println(rezultat);
+		System.out.print("Radijus sfere je: ");
+		System.out.println(radijus);
+	}
+		
+	}
+
