@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class djeljivSa6 {
+
+	public static void main(final String[] args) {
+		final Scanner unos = new Scanner(System.in);
+		System.out.println("Unesi broj ");
+		final int broj = unos.nextInt();
+		if ((broj % 2 == 0) && (broj % 3 == 0)) {
+			System.out.println("Broj je djeljiv sa 6");
+		} else {
+
+			System.out.println("Broj nije djeljiv sa 6");
+
+			if (broj % 2 == 0) {
+			System.out.println("Broj djeljiv sa 2");
+			} else if (broj % 3 == 0) {
+			System.out.println("Broj djeljiv sa 3");
+			}
+
+		}
+
+	}
+
+}
